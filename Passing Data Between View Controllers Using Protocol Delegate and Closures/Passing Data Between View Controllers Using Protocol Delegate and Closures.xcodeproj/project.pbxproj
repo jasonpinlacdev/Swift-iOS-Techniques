@@ -15,6 +15,8 @@
 		E1A517C7244E3E530020B060 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1A517C5244E3E530020B060 /* LaunchScreen.storyboard */; };
 		E1A517D3244E44A40020B060 /* DelegateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A517D2244E44A40020B060 /* DelegateViewController.swift */; };
 		E1A517D5244E44B70020B060 /* ClosureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A517D4244E44B70020B060 /* ClosureViewController.swift */; };
+		E1AFC291244E78EC007D333C /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AFC28F244E78EC007D333C /* TestViewController.swift */; };
+		E1AFC292244E78EC007D333C /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1AFC290244E78EC007D333C /* TestViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		E1A517C8244E3E530020B060 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1A517D2244E44A40020B060 /* DelegateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateViewController.swift; sourceTree = "<group>"; };
 		E1A517D4244E44B70020B060 /* ClosureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureViewController.swift; sourceTree = "<group>"; };
+		E1AFC28F244E78EC007D333C /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		E1AFC290244E78EC007D333C /* TestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 				E1A517C3244E3E530020B060 /* Assets.xcassets */,
 				E1A517C5244E3E530020B060 /* LaunchScreen.storyboard */,
 				E1A517C8244E3E530020B060 /* Info.plist */,
+				E1AFC28F244E78EC007D333C /* TestViewController.swift */,
+				E1AFC290244E78EC007D333C /* TestViewController.xib */,
 			);
 			path = "Passing Data Between View Controllers Using Protocol Delegate and Closures";
 			sourceTree = "<group>";
@@ -133,6 +139,7 @@
 			files = (
 				E1A517C7244E3E530020B060 /* LaunchScreen.storyboard in Resources */,
 				E1A517C4244E3E530020B060 /* Assets.xcassets in Resources */,
+				E1AFC292244E78EC007D333C /* TestViewController.xib in Resources */,
 				E1A517C2244E3E520020B060 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -148,6 +155,7 @@
 				E1A517D3244E44A40020B060 /* DelegateViewController.swift in Sources */,
 				E1A517D5244E44B70020B060 /* ClosureViewController.swift in Sources */,
 				E1A517BB244E3E520020B060 /* AppDelegate.swift in Sources */,
+				E1AFC291244E78EC007D333C /* TestViewController.swift in Sources */,
 				E1A517BD244E3E520020B060 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
