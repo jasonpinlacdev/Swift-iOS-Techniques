@@ -14,6 +14,7 @@
 		E1EEED0A245F500E009C479B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1EEED09245F500E009C479B /* Assets.xcassets */; };
 		E1EEED0D245F500E009C479B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1EEED0B245F500E009C479B /* LaunchScreen.storyboard */; };
 		E1EEED15245F58AF009C479B /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EEED14245F58AF009C479B /* Post.swift */; };
+		E1EEED17245FC112009C479B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EEED16245FC112009C479B /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		E1EEED0C245F500E009C479B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1EEED0E245F500E009C479B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1EEED14245F58AF009C479B /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		E1EEED16245FC112009C479B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				E1EEED00245F5009009C479B /* AppDelegate.swift */,
 				E1EEED02245F5009009C479B /* SceneDelegate.swift */,
 				E1EEED04245F5009009C479B /* ViewController.swift */,
+				E1EEED16245FC112009C479B /* DetailViewController.swift */,
 				E1EEED14245F58AF009C479B /* Post.swift */,
 				E1EEED06245F5009009C479B /* Main.storyboard */,
 				E1EEED09245F500E009C479B /* Assets.xcassets */,
@@ -143,6 +146,7 @@
 			files = (
 				E1EEED05245F5009009C479B /* ViewController.swift in Sources */,
 				E1EEED01245F5009009C479B /* AppDelegate.swift in Sources */,
+				E1EEED17245FC112009C479B /* DetailViewController.swift in Sources */,
 				E1EEED03245F5009009C479B /* SceneDelegate.swift in Sources */,
 				E1EEED15245F58AF009C479B /* Post.swift in Sources */,
 			);
