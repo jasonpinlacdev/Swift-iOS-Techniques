@@ -68,8 +68,8 @@ class MyCollectionViewCell: UICollectionViewCell {
         backgroundColor = .systemRed
         layer.cornerRadius = 15
         NSLayoutConstraint.activate([
-            customTextField.centerXAnchor.constraint(equalTo: self.centerXAnchor),
-            customTextField.centerYAnchor.constraint(equalTo: self.centerYAnchor),
+            customTextField.centerXAnchor.constraint(equalTo: contentView.centerXAnchor),
+            customTextField.centerYAnchor.constraint(equalTo: contentView.centerYAnchor),
         ])
     }
     

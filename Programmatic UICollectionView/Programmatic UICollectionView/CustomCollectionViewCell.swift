@@ -37,9 +37,9 @@ class CustomCollectionViewCell: UICollectionViewCell {
         self.layer.cornerRadius = 20
         
         NSLayoutConstraint.activate([
-            customTextField.centerYAnchor.constraint(equalTo: self.centerYAnchor),
-            customTextField.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 16),
-            customTextField.trailingAnchor.constraint(equalTo: self.trailingAnchor),
+            customTextField.centerYAnchor.constraint(equalTo: contentView.centerYAnchor),
+            customTextField.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 16),
+            customTextField.trailingAnchor.constraint(equalTo: contentView.trailingAnchor),
         ])
     }
     
