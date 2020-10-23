@@ -129,6 +129,12 @@
                             <constraint firstItem="Q3E-xe-uok" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.9" id="zdd-v3-IyK"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="displayNameTextField" destination="hVM-RF-lf3" id="pZH-k7-kOW"/>
+                        <outlet property="emailTextField" destination="AyB-Rf-8x4" id="e0H-qN-eSi"/>
+                        <outlet property="passwordTextField" destination="3f0-5K-BS6" id="GaB-6L-7Iv"/>
+                        <outlet property="usernameTextField" destination="BC3-c1-OF5" id="vWX-Ly-FLX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
