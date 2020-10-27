@@ -5,6 +5,12 @@
 //  Created by Jason Pinlac on 10/20/20.
 //
 
+// MARK: - 4 ways to pass data from a ViewController to a DetailViewController from a storyboard setup  -
+// 1) OLD WAY: passing data to the detailViewController via storyboard segue and override prepare method (make sure segue is created from tableView cell to detailController). Uses a segue identifier
+// 2) OLD WAY: passing data to detailViewController via UITableViewDelegate didSelectRowAt method and instantiation from storyboard id
+// 3) NEW WAY: passing data to the detailViewController via @IBSegueAction (make sure segue is created from tableView cell to detailController and the outlet is connected)
+// 4) NEW WAY: passing data to the storyboard detailViewController via the use of custom init?(coder: , ...) code. This is done in the didSelectRowAt method from UITableViewDelegate and the storyboard?.instantiateVieController(identifier: creator:) method.
+
 import UIKit
 
 class ViewController: UIViewController {
@@ -48,7 +54,7 @@ extension ViewController: UITableViewDelegate {
 //        navigationController?.pushViewController(detailViewController, animated: true)
 //    }
     
-    // MARK: - NEW WAY: passing data to the storyboard detailViewController via the use of custom init?(coder: , ...) code -
+    // MARK: - NEW WAY: passing data to the storyboard detailViewController via the use of custom init?(coder: , ...) code and didSelectRowAt from UITableViewDelegate -
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         guard let detailViewController = storyboard?.instantiateViewController(identifier: "DetailViewController", creator: { [weak self] coder -> DetailViewController? in
             let brotherData = self?.data[indexPath.row]

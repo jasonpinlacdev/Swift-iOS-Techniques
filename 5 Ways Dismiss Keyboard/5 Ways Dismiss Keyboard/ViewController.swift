@@ -6,7 +6,7 @@
 //
 
 // MARK: - 5 WAYS TO DISMISS A KEYBOARD
-// 1) Implement the textFieldShouldReturn delegate for the textField
+// 1) Implement the textFieldShouldReturn delegate for the textField and use textField.shouldResignFirstResponder
 // 2) If a textField can't use its return key, add a UIToolBar on top of the keyboard with a done button that uses a target and selector function to call view.endEditing()
 // 3) Add a tap gesture recognizer that calls the UIView.endEditing(_:) functions
 // 4) Override the touches began method and call view.endEditing()
