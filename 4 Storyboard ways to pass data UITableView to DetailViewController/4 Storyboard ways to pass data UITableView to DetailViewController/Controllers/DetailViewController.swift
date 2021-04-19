@@ -18,7 +18,7 @@ class DetailViewController: UIViewController {
         textLabel?.text = brother
     }
     
-    required init?(coder: NSCoder, brother: String?) {
+    init?(coder: NSCoder, brother: String?) {
         self.brother = brother
         super.init(coder: coder)
     }
