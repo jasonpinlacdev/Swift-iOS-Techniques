@@ -7,27 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E145B2F42548FFC400A3B645 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E145B2F32548FFC400A3B645 /* AppDelegate.swift */; };
-		E145B2F62548FFC400A3B645 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E145B2F52548FFC400A3B645 /* SceneDelegate.swift */; };
-		E145B2F82548FFC400A3B645 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E145B2F72548FFC400A3B645 /* ViewController.swift */; };
-		E145B2FB2548FFC400A3B645 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E145B2F92548FFC400A3B645 /* Main.storyboard */; };
-		E145B2FD2548FFC700A3B645 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E145B2FC2548FFC700A3B645 /* Assets.xcassets */; };
-		E145B3002548FFC700A3B645 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E145B2FE2548FFC700A3B645 /* LaunchScreen.storyboard */; };
+		E1BDF90F26570B0D00F97B96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BDF90E26570B0D00F97B96 /* AppDelegate.swift */; };
+		E1BDF91126570B0D00F97B96 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BDF91026570B0D00F97B96 /* SceneDelegate.swift */; };
+		E1BDF91326570B0D00F97B96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BDF91226570B0D00F97B96 /* ViewController.swift */; };
+		E1BDF91626570B0D00F97B96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1BDF91426570B0D00F97B96 /* Main.storyboard */; };
+		E1BDF91826570B1300F97B96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1BDF91726570B1300F97B96 /* Assets.xcassets */; };
+		E1BDF91B26570B1300F97B96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1BDF91926570B1300F97B96 /* LaunchScreen.storyboard */; };
+		E1BDF92726570E9300F97B96 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BDF92626570E9300F97B96 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E145B2F02548FFC400A3B645 /* 3 Networking In Swift The Right Way.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "3 Networking In Swift The Right Way.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E145B2F32548FFC400A3B645 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E145B2F52548FFC400A3B645 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E145B2F72548FFC400A3B645 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E145B2FA2548FFC400A3B645 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E145B2FC2548FFC700A3B645 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E145B2FF2548FFC700A3B645 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E145B3012548FFC700A3B645 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1BDF90B26570B0D00F97B96 /* Networking with URLSession.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Networking with URLSession.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1BDF90E26570B0D00F97B96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E1BDF91026570B0D00F97B96 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E1BDF91226570B0D00F97B96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E1BDF91526570B0D00F97B96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1BDF91726570B1300F97B96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1BDF91A26570B1300F97B96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1BDF91C26570B1300F97B96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1BDF92626570E9300F97B96 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E145B2ED2548FFC400A3B645 /* Frameworks */ = {
+		E1BDF90826570B0D00F97B96 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,71 +39,104 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E145B2E72548FFC400A3B645 = {
+		E1BDF90226570B0D00F97B96 = {
 			isa = PBXGroup;
 			children = (
-				E145B2F22548FFC400A3B645 /* 3 Networking In Swift The Right Way */,
-				E145B2F12548FFC400A3B645 /* Products */,
+				E1BDF90D26570B0D00F97B96 /* Networking with URLSession */,
+				E1BDF90C26570B0D00F97B96 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		E145B2F12548FFC400A3B645 /* Products */ = {
+		E1BDF90C26570B0D00F97B96 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E145B2F02548FFC400A3B645 /* 3 Networking In Swift The Right Way.app */,
+				E1BDF90B26570B0D00F97B96 /* Networking with URLSession.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E145B2F22548FFC400A3B645 /* 3 Networking In Swift The Right Way */ = {
+		E1BDF90D26570B0D00F97B96 /* Networking with URLSession */ = {
 			isa = PBXGroup;
 			children = (
-				E145B2F32548FFC400A3B645 /* AppDelegate.swift */,
-				E145B2F52548FFC400A3B645 /* SceneDelegate.swift */,
-				E145B2F72548FFC400A3B645 /* ViewController.swift */,
-				E145B2F92548FFC400A3B645 /* Main.storyboard */,
-				E145B2FC2548FFC700A3B645 /* Assets.xcassets */,
-				E145B2FE2548FFC700A3B645 /* LaunchScreen.storyboard */,
-				E145B3012548FFC700A3B645 /* Info.plist */,
+				E1BDF92526570B2700F97B96 /* Models */,
+				E1BDF92426570B2400F97B96 /* Views */,
+				E1BDF92326570B2000F97B96 /* Controllers */,
+				E1BDF92226570B1C00F97B96 /* Support */,
+				E1BDF91C26570B1300F97B96 /* Info.plist */,
 			);
-			path = "3 Networking In Swift The Right Way";
+			path = "Networking with URLSession";
+			sourceTree = "<group>";
+		};
+		E1BDF92226570B1C00F97B96 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				E1BDF90E26570B0D00F97B96 /* AppDelegate.swift */,
+				E1BDF91026570B0D00F97B96 /* SceneDelegate.swift */,
+				E1BDF91426570B0D00F97B96 /* Main.storyboard */,
+				E1BDF91726570B1300F97B96 /* Assets.xcassets */,
+				E1BDF91926570B1300F97B96 /* LaunchScreen.storyboard */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		E1BDF92326570B2000F97B96 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E1BDF91226570B0D00F97B96 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E1BDF92426570B2400F97B96 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E1BDF92526570B2700F97B96 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E1BDF92626570E9300F97B96 /* Person.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E145B2EF2548FFC400A3B645 /* 3 Networking In Swift The Right Way */ = {
+		E1BDF90A26570B0D00F97B96 /* Networking with URLSession */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E145B3042548FFC700A3B645 /* Build configuration list for PBXNativeTarget "3 Networking In Swift The Right Way" */;
+			buildConfigurationList = E1BDF91F26570B1300F97B96 /* Build configuration list for PBXNativeTarget "Networking with URLSession" */;
 			buildPhases = (
-				E145B2EC2548FFC400A3B645 /* Sources */,
-				E145B2ED2548FFC400A3B645 /* Frameworks */,
-				E145B2EE2548FFC400A3B645 /* Resources */,
+				E1BDF90726570B0D00F97B96 /* Sources */,
+				E1BDF90826570B0D00F97B96 /* Frameworks */,
+				E1BDF90926570B0D00F97B96 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "3 Networking In Swift The Right Way";
-			productName = "3 Networking In Swift The Right Way";
-			productReference = E145B2F02548FFC400A3B645 /* 3 Networking In Swift The Right Way.app */;
+			name = "Networking with URLSession";
+			productName = "Networking with URLSession";
+			productReference = E1BDF90B26570B0D00F97B96 /* Networking with URLSession.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E145B2E82548FFC400A3B645 /* Project object */ = {
+		E1BDF90326570B0D00F97B96 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1200;
-				LastUpgradeCheck = 1200;
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					E145B2EF2548FFC400A3B645 = {
-						CreatedOnToolsVersion = 12.0.1;
+					E1BDF90A26570B0D00F97B96 = {
+						CreatedOnToolsVersion = 12.5;
 					};
 				};
 			};
-			buildConfigurationList = E145B2EB2548FFC400A3B645 /* Build configuration list for PBXProject "3 Networking In Swift The Right Way" */;
+			buildConfigurationList = E1BDF90626570B0D00F97B96 /* Build configuration list for PBXProject "Networking with URLSession" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,55 +144,56 @@
 				en,
 				Base,
 			);
-			mainGroup = E145B2E72548FFC400A3B645;
-			productRefGroup = E145B2F12548FFC400A3B645 /* Products */;
+			mainGroup = E1BDF90226570B0D00F97B96;
+			productRefGroup = E1BDF90C26570B0D00F97B96 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E145B2EF2548FFC400A3B645 /* 3 Networking In Swift The Right Way */,
+				E1BDF90A26570B0D00F97B96 /* Networking with URLSession */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E145B2EE2548FFC400A3B645 /* Resources */ = {
+		E1BDF90926570B0D00F97B96 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E145B3002548FFC700A3B645 /* LaunchScreen.storyboard in Resources */,
-				E145B2FD2548FFC700A3B645 /* Assets.xcassets in Resources */,
-				E145B2FB2548FFC400A3B645 /* Main.storyboard in Resources */,
+				E1BDF91B26570B1300F97B96 /* LaunchScreen.storyboard in Resources */,
+				E1BDF91826570B1300F97B96 /* Assets.xcassets in Resources */,
+				E1BDF91626570B0D00F97B96 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E145B2EC2548FFC400A3B645 /* Sources */ = {
+		E1BDF90726570B0D00F97B96 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E145B2F82548FFC400A3B645 /* ViewController.swift in Sources */,
-				E145B2F42548FFC400A3B645 /* AppDelegate.swift in Sources */,
-				E145B2F62548FFC400A3B645 /* SceneDelegate.swift in Sources */,
+				E1BDF91326570B0D00F97B96 /* ViewController.swift in Sources */,
+				E1BDF90F26570B0D00F97B96 /* AppDelegate.swift in Sources */,
+				E1BDF92726570E9300F97B96 /* Person.swift in Sources */,
+				E1BDF91126570B0D00F97B96 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E145B2F92548FFC400A3B645 /* Main.storyboard */ = {
+		E1BDF91426570B0D00F97B96 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E145B2FA2548FFC400A3B645 /* Base */,
+				E1BDF91526570B0D00F97B96 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		E145B2FE2548FFC700A3B645 /* LaunchScreen.storyboard */ = {
+		E1BDF91926570B1300F97B96 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E145B2FF2548FFC700A3B645 /* Base */,
+				E1BDF91A26570B1300F97B96 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -165,7 +201,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		E145B3022548FFC700A3B645 /* Debug */ = {
+		E1BDF91D26570B1300F97B96 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -216,7 +252,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -226,7 +262,7 @@
 			};
 			name = Debug;
 		};
-		E145B3032548FFC700A3B645 /* Release */ = {
+		E1BDF91E26570B1300F97B96 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -271,7 +307,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -281,38 +317,38 @@
 			};
 			name = Release;
 		};
-		E145B3052548FFC700A3B645 /* Debug */ = {
+		E1BDF92026570B1300F97B96 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XWVP4F494Z;
-				INFOPLIST_FILE = "3 Networking In Swift The Right Way/Info.plist";
+				INFOPLIST_FILE = "Networking with URLSession/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.jasonpinlac.--Networking-In-Swift-The-Right-Way";
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.jasonpinlac.Networking-with-URLSession";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		E145B3062548FFC700A3B645 /* Release */ = {
+		E1BDF92126570B1300F97B96 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XWVP4F494Z;
-				INFOPLIST_FILE = "3 Networking In Swift The Right Way/Info.plist";
+				INFOPLIST_FILE = "Networking with URLSession/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.jasonpinlac.--Networking-In-Swift-The-Right-Way";
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.jasonpinlac.Networking-with-URLSession";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -322,25 +358,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E145B2EB2548FFC400A3B645 /* Build configuration list for PBXProject "3 Networking In Swift The Right Way" */ = {
+		E1BDF90626570B0D00F97B96 /* Build configuration list for PBXProject "Networking with URLSession" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E145B3022548FFC700A3B645 /* Debug */,
-				E145B3032548FFC700A3B645 /* Release */,
+				E1BDF91D26570B1300F97B96 /* Debug */,
+				E1BDF91E26570B1300F97B96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E145B3042548FFC700A3B645 /* Build configuration list for PBXNativeTarget "3 Networking In Swift The Right Way" */ = {
+		E1BDF91F26570B1300F97B96 /* Build configuration list for PBXNativeTarget "Networking with URLSession" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E145B3052548FFC700A3B645 /* Debug */,
-				E145B3062548FFC700A3B645 /* Release */,
+				E1BDF92026570B1300F97B96 /* Debug */,
+				E1BDF92126570B1300F97B96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E145B2E82548FFC400A3B645 /* Project object */;
+	rootObject = E1BDF90326570B0D00F97B96 /* Project object */;
 }
